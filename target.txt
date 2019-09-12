@@ -1,0 +1,3 @@
+space 10
+iron 100
+air 1000
