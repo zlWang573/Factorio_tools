@@ -90,7 +90,7 @@ def main():
     for line in fp.readlines():
         line = line.split()
         dfs(goods_id[line[0]], int(line[1]))
-    print("need:")
+    print("goods:")
     for i in range(len(goods_id)):
         if goods[i].method == None:
             print(id_goods[i], goods_num[i])
