@@ -175,4 +175,4 @@
 {"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel", "electronic_circuit"], "out_goods": ["radar"], "in_num": [10, 5, 5], "out_num": [1], "plant": ""}
 {"time": 30, "in_goods": ["steel_plate", "processing_unit", "electric_engine_unit", "pipe", "concrete"], "out_goods": ["rocket_silo"], "in_num": [1000, 200, 200, 100, 1000], "out_num": [1], "plant": ""}
 {"time": 3, "in_goods": ["rocket_control_unit", "low_density_structure", "rocket_fuel"], "out_goods": ["rocket_part"], "in_num": [10, 10, 10], "out_num": [1], "plant": ""}
-{"time": 300, "in_goods": ["rocket_part"], "out_goods": ["rocket_launch"], "in_num": [100], "out_num": [1], "plant": ""}
+{"time": 300, "in_goods": ["rocket_part", "satellite"], "out_goods": ["space_science_pack"], "in_num": [100, 1], "out_num": [1000], "plant": ""}
