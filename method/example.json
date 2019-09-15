@@ -1,0 +1,2 @@
+{"time": 1, "in_goods": ["iron", "water"], "out_goods": ["space"], "in_num": [2, 100], "out_num": [1], "plant": ""}
+{"time": 1, "in_goods": ["air"], "out_goods": ["iron"], "in_num": [10], "out_num": [1], "plant": ""}

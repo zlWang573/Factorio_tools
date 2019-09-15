@@ -4,9 +4,9 @@ import sys
 
 class Method:
     def __init__(self, params):
-        self.name = params["name"]
+        self.name = params["out_goods"][0] #only one out_goods, use it as method_name
         self.time = float(params["time"])
-        self.factory = params["factory"]
+        self.plant = params["plant"]
         self.in_goods = params["in_goods"]
         self.out_goods = params["out_goods"]
         self.in_num = params["in_num"]
@@ -23,12 +23,14 @@ class Goods:
 
 
 def main():
+    a = input("input method name:")
+    b = input("input target name:")
     cnt = 0
     goods_id = {}
     id_goods = []
     methods = []
     goods = []
-    fp = open("./method.json")
+    fp = open("./method/" + a + ".json")
     for line in fp.readlines():
         x = json.loads(line)
         for i, good in enumerate(x["in_goods"]):
@@ -46,12 +48,12 @@ def main():
                 cnt += 1
             goods[goods_id[good]].add(len(methods))
             x["out_goods"][i] = goods_id[good]
-        print(x)
+        #print(x)
         methods.append(Method(x))
-    print(goods_id)
-    print(id_goods)
-    for x in goods:
-        print(x.name, x.id, x.method)
+    #print(goods_id)
+    #print(id_goods)
+    #for x in goods:
+    #    print(x.name, x.id, x.method)
     
     global goods_num
     goods_num = []
@@ -86,7 +88,7 @@ def main():
                 break
 
 
-    fp = open("./target.txt")
+    fp = open("./target/" + b + ".txt")
     for line in fp.readlines():
         line = line.split()
         dfs(goods_id[line[0]], int(line[1]))
@@ -97,7 +99,7 @@ def main():
     print("methods:")
     for i in range(len(methods)):
         if methods_num[i] != 0:
-            print(methods[i].name, methods_num[i])
+            print(id_goods[methods[i].name], methods_num[i])
 
 
 if __name__ == "__main__":

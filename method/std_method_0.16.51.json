@@ -1,0 +1,178 @@
+{"time": 0.5, "in_goods": ["iron_plate"], "out_goods": ["iron_chest"], "in_num": [8], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["steel_plate"], "out_goods": ["steel_chest"], "in_num": [8], "out_num": [1], "plant": ""}
+{"time": 3, "in_goods": ["iron_plate", "steel_plate"], "out_goods": ["storage_tank"], "in_num": [20, 5], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel"], "out_goods": ["transport_belt"], "in_num": [1, 1], "out_num": [2], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_gear_wheel", "transport_belt"], "out_goods": ["fast_transport_belt"], "in_num": [5, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_gear_wheel", "fast_transport_belt", "lubricant"], "out_goods": ["express_transport_belt"], "in_num": [10, 1, 20], "out_num": [1], "plant": ""}
+{"time": 1, "in_goods": ["iron_plate", "transport_belt"], "out_goods": ["underground_belt"], "in_num": [10, 5], "out_num": [2], "plant": ""}
+{"time": 2, "in_goods": ["iron_gear_wheel", "underground_belt"], "out_goods": ["fast_underground_belt"], "in_num": [40, 2], "out_num": [2], "plant": ""}
+{"time": 2, "in_goods": ["iron_gear_wheel", "fast_underground_belt", "lubricant"], "out_goods": ["express_underground_belt"], "in_num": [80, 2, 40], "out_num": [2], "plant": ""}
+{"time": 1, "in_goods": ["iron_plate", "electronic_circuit", "transport_belt"], "out_goods": ["splitter"], "in_num": [5, 5, 4], "out_num": [1], "plant": ""}
+{"time": 2, "in_goods": ["iron_gear_wheel", "electronic_circuit", "splitter"], "out_goods": ["fast_splitter"], "in_num": [10, 10, 1], "out_num": [1], "plant": ""}
+{"time": 2, "in_goods": ["iron_gear_wheel", "advanced_circuit", "fast_splitter", "lubricant"], "out_goods": ["express_splitter"], "in_num": [10, 10, 1, 80], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel"], "out_goods": ["burner_inserter"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel", "electronic_circuit"], "out_goods": ["inserter"], "in_num": [1, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel", "inserter"], "out_goods": ["long_handed_inserter"], "in_num": [1, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "electronic_circuit", "inserter"], "out_goods": ["fast_inserter"], "in_num": [2, 2, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit", "fast_inserter"], "out_goods": ["filter_inserter"], "in_num": [4, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_gear_wheel", "electronic_circuit", "advanced_circuit", "fast_inserter"], "out_goods": ["stack_inserter"], "in_num": [15, 15, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit", "stack_inserter"], "out_goods": ["stack_filter_inserter"], "in_num": [5, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_plate", "steel_plate"], "out_goods": ["medium_electric_pole"], "in_num": [2, 2], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_plate", "steel_plate"], "out_goods": ["big_electric_pole"], "in_num": [5, 5], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_plate", "steel_plate", "advanced_circuit"], "out_goods": ["substation"], "in_num": [5, 10, 5], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate"], "out_goods": ["pipe"], "in_num": [1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "pipe"], "out_goods": ["pipe_to_ground"], "in_num": [5, 10], "out_num": [2], "plant": ""}
+{"time": 2, "in_goods": ["steel_plate", "engine_unit", "pipe"], "out_goods": ["pump"], "in_num": [1, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["stone", "steel_plate", "iron_stick"], "out_goods": ["straight_rail"], "in_num": [1, 1, 1], "out_num": [2], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "steel_plate", "electronic_circuit"], "out_goods": ["train_stop"], "in_num": [10, 3, 5], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "electronic_circuit"], "out_goods": ["rail_signal"], "in_num": [5, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "electronic_circuit"], "out_goods": ["rail_chain_signal"], "in_num": [5, 1], "out_num": [1], "plant": ""}
+{"time": 4, "in_goods": ["steel_plate", "electronic_circuit", "engine_unit"], "out_goods": ["locomotive"], "in_num": [30, 10, 20], "out_num": [1], "plant": ""}
+{"time": 1, "in_goods": ["iron_plate", "steel_plate", "iron_gear_wheel"], "out_goods": ["cargo_wagon"], "in_num": [20, 20, 10], "out_num": [1], "plant": ""}
+{"time": 1.5, "in_goods": ["steel_plate", "iron_gear_wheel", "storage_tank", "pipe"], "out_goods": ["fluid_wagon"], "in_num": [16, 10, 1, 8], "out_num": [1], "plant": ""}
+{"time": 4, "in_goods": ["steel_plate", "iron_gear_wheel", "advanced_circuit", "engine_unit", "pipe"], "out_goods": ["artillery_wagon"], "in_num": [40, 10, 20, 64, 16], "out_num": [1], "plant": ""}
+{"time": 2, "in_goods": ["iron_plate", "steel_plate", "engine_unit"], "out_goods": ["car"], "in_num": [20, 5, 8], "out_num": [1], "plant": ""}
+{"time": 5, "in_goods": ["steel_plate", "iron_gear_wheel", "advanced_circuit", "engine_unit"], "out_goods": ["tank"], "in_num": [50, 15, 10, 32], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["advanced_circuit", "flying_robot_frame"], "out_goods": ["logistic_robot"], "in_num": [2, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit", "flying_robot_frame"], "out_goods": ["construction_robot"], "in_num": [2, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit", "advanced_circuit", "steel_chest"], "out_goods": ["active_provider_chest"], "in_num": [3, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit", "advanced_circuit", "steel_chest"], "out_goods": ["passive_provider_chest"], "in_num": [3, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit", "advanced_circuit", "steel_chest"], "out_goods": ["storage_chest"], "in_num": [3, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit", "advanced_circuit", "steel_chest"], "out_goods": ["buffer_chest"], "in_num": [3, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit", "advanced_circuit", "steel_chest"], "out_goods": ["requester_chest"], "in_num": [3, 1, 1], "out_num": [1], "plant": ""}
+{"time": 5, "in_goods": ["steel_plate", "iron_gear_wheel", "active_provider_chest"], "out_goods": ["roboport"], "in_num": [45, 45, 45], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_stick", "electronic_circuit"], "out_goods": ["lamp"], "in_num": [1, 3, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_cable", "electronic_circuit"], "out_goods": ["red_wire"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_cable", "electronic_circuit"], "out_goods": ["green_wire"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_cable", "electronic_circuit"], "out_goods": ["arithmetic_combinator"], "in_num": [5, 5], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_cable", "electronic_circuit"], "out_goods": ["decider_combinator"], "in_num": [5, 5], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_cable", "electronic_circuit"], "out_goods": ["constant_combinator"], "in_num": [5, 2], "out_num": [1], "plant": ""}
+{"time": 2, "in_goods": ["iron_plate", "copper_cable", "electronic_circuit"], "out_goods": ["power_switch"], "in_num": [5, 5, 2], "out_num": [1], "plant": ""}
+{"time": 2, "in_goods": ["iron_plate", "copper_cable", "electronic_circuit"], "out_goods": ["programmable_speaker"], "in_num": [5, 5, 4], "out_num": [1], "plant": ""}
+{"time": 3.5, "in_goods": ["stone"], "out_goods": ["stone_brick"], "in_num": [2], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["iron_ore", "stone_brick", "water"], "out_goods": ["concrete"], "in_num": [1, 5, 100], "out_num": [10], "plant": ""}
+{"time": 0.25, "in_goods": ["concrete"], "out_goods": ["hazard_concrete"], "in_num": [10], "out_num": [10], "plant": ""}
+{"time": 15, "in_goods": ["steel_plate", "iron_stick", "concrete", "water"], "out_goods": ["refined_concrete"], "in_num": [1, 8, 20, 100], "out_num": [10], "plant": ""}
+{"time": 0.25, "in_goods": ["refined_concrete"], "out_goods": ["refined_hazard_concrete"], "in_num": [10], "out_num": [10], "plant": ""}
+{"time": 0.5, "in_goods": ["stone"], "out_goods": ["landfill"], "in_num": [20], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["explosives", "empty_barrel", "grenade"], "out_goods": ["cliff_explosives"], "in_num": [10, 1, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_stick"], "out_goods": ["iron_axe"], "in_num": [3, 2], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["steel_plate", "iron_stick"], "out_goods": ["steel_axe"], "in_num": [5, 2], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_gear_wheel", "electronic_circuit"], "out_goods": ["repair_pack"], "in_num": [2, 2], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["pipe", "stone_furnace"], "out_goods": ["boiler"], "in_num": [4, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel", "pipe"], "out_goods": ["steam_engine"], "in_num": [10, 8, 5], "out_num": [1], "plant": ""}
+{"time": 3, "in_goods": ["copper_plate", "iron_gear_wheel", "pipe"], "out_goods": ["steam_turbine"], "in_num": [50, 50, 20], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["copper_plate", "steel_plate", "electronic_circuit"], "out_goods": ["solar_panel"], "in_num": [5, 5, 15], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["iron_plate", "battery"], "out_goods": ["accumulator"], "in_num": [2, 5], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["copper_plate", "steel_plate", "advanced_circuit", "concrete"], "out_goods": ["nuclear_reactor"], "in_num": [500, 500, 500, 500], "out_num": [1], "plant": ""}
+{"time": 3, "in_goods": ["copper_plate", "steel_plate", "pipe"], "out_goods": ["heat_exchanger"], "in_num": [100, 10, 10], "out_num": [1], "plant": ""}
+{"time": 1, "in_goods": ["copper_plate", "steel_plate"], "out_goods": ["heat_pipe"], "in_num": [20, 10], "out_num": [1], "plant": ""}
+{"time": 2, "in_goods": ["iron_plate", "iron_gear_wheel", "stone_furnace"], "out_goods": ["burner_mining_drill"], "in_num": [3, 3, 1], "out_num": [1], "plant": ""}
+{"time": 2, "in_goods": ["iron_plate", "iron_gear_wheel", "electronic_circuit"], "out_goods": ["electric_mining_drill"], "in_num": [10, 5, 3], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_gear_wheel", "electronic_circuit", "pipe"], "out_goods": ["offshore_pump"], "in_num": [1, 2, 1], "out_num": [1], "plant": ""}
+{"time": 5, "in_goods": ["steel_plate", "iron_gear_wheel", "electronic_circuit", "pipe"], "out_goods": ["pumpjack"], "in_num": [5, 10, 5, 10], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["stone"], "out_goods": ["stone_furnace"], "in_num": [5], "out_num": [1], "plant": ""}
+{"time": 3, "in_goods": ["steel_plate", "stone_brick"], "out_goods": ["steel_furnace"], "in_num": [6, 10], "out_num": [1], "plant": ""}
+{"time": 5, "in_goods": ["steel_plate", "advanced_circuit", "stone_brick"], "out_goods": ["electric_furnace"], "in_num": [10, 5, 10], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel", "electronic_circuit"], "out_goods": ["assembling_machine_1"], "in_num": [9, 5, 3], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel", "electronic_circuit", "assembling_machine_1"], "out_goods": ["assembling_machine_2"], "in_num": [9, 5, 3, 1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["assembling_machine_2", "speed_module"], "out_goods": ["assembling_machine_3"], "in_num": [2, 4], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["steel_plate", "iron_gear_wheel", "electronic_circuit", "pipe", "stone_brick"], "out_goods": ["oil_refinery"], "in_num": [15, 10, 10, 10, 10], "out_num": [1], "plant": ""}
+{"time": 5, "in_goods": ["steel_plate", "iron_gear_wheel", "electronic_circuit", "pipe"], "out_goods": ["chemical_plant"], "in_num": [5, 5, 5, 5], "out_num": [1], "plant": ""}
+{"time": 4, "in_goods": ["steel_plate", "iron_gear_wheel", "advanced_circuit", "concrete"], "out_goods": ["centrifuge"], "in_num": [50, 100, 100, 100], "out_num": [1], "plant": ""}
+{"time": 2, "in_goods": ["iron_gear_wheel", "electronic_circuit", "transport_belt"], "out_goods": ["lab"], "in_num": [10, 10, 4], "out_num": [1], "plant": ""}
+{"time": 15, "in_goods": ["steel_plate", "copper_cable", "electronic_circuit", "advanced_circuit"], "out_goods": ["beacon"], "in_num": [10, 10, 20, 20], "out_num": [1], "plant": ""}
+{"time": 15, "in_goods": ["electronic_circuit", "advanced_circuit"], "out_goods": ["speed_module"], "in_num": [5, 5], "out_num": [1], "plant": ""}
+{"time": 30, "in_goods": ["advanced_circuit", "processing_unit", "speed_module"], "out_goods": ["speed_module_2"], "in_num": [5, 5, 4], "out_num": [1], "plant": ""}
+{"time": 60, "in_goods": ["advanced_circuit", "processing_unit", "speed_module_2"], "out_goods": ["speed_module_3"], "in_num": [5, 5, 5], "out_num": [1], "plant": ""}
+{"time": 15, "in_goods": ["electronic_circuit", "advanced_circuit"], "out_goods": ["efficiency_module"], "in_num": [5, 5], "out_num": [1], "plant": ""}
+{"time": 30, "in_goods": ["advanced_circuit", "processing_unit", "efficiency_module"], "out_goods": ["efficiency_module_2"], "in_num": [5, 5, 4], "out_num": [1], "plant": ""}
+{"time": 60, "in_goods": ["advanced_circuit", "processing_unit", "efficiency_module_2"], "out_goods": ["efficiency_module_3"], "in_num": [5, 5, 5], "out_num": [1], "plant": ""}
+{"time": 15, "in_goods": ["electronic_circuit", "advanced_circuit"], "out_goods": ["productivity_module"], "in_num": [5, 5], "out_num": [1], "plant": ""}
+{"time": 30, "in_goods": ["advanced_circuit", "processing_unit", "productivity_module"], "out_goods": ["productivity_module_2"], "in_num": [5, 5, 4], "out_num": [1], "plant": ""}
+{"time": 60, "in_goods": ["advanced_circuit", "processing_unit", "productivity_module_2"], "out_goods": ["productivity_module_3"], "in_num": [5, 5, 5], "out_num": [1], "plant": ""}
+{"time": 1, "in_goods": ["iron_plate", "sulfur", "water"], "out_goods": ["sulfuric_acid"], "in_num": [1, 5, 100], "out_num": [50], "plant": ""}
+{"time": 3, "in_goods": ["petroleum_gas"], "out_goods": ["solid_fuel"], "in_num": [20], "out_num": [1], "plant": ""}
+{"time": 1, "in_goods": ["heavy_oil"], "out_goods": ["lubricant"], "in_num": [10], "out_num": [10], "plant": ""}
+{"time": 17.5, "in_goods": ["iron_plate"], "out_goods": ["steel_plate"], "in_num": [5], "out_num": [1], "plant": ""}
+{"time": 1, "in_goods": ["coal", "petroleum_gas"], "out_goods": ["plastic_bar"], "in_num": [1, 20], "out_num": [2], "plant": ""}
+{"time": 1, "in_goods": ["water", "petroleum_gas"], "out_goods": ["sulfur"], "in_num": [30, 30], "out_num": [2], "plant": ""}
+{"time": 5, "in_goods": ["iron_plate", "copper_plate", "sulfuric_acid"], "out_goods": ["battery"], "in_num": [1, 1, 20], "out_num": [1], "plant": ""}
+{"time": 5, "in_goods": ["coal", "sulfur", "water"], "out_goods": ["explosives"], "in_num": [1, 1, 10], "out_num": [2], "plant": ""}
+{"time": 0.5, "in_goods": ["copper_plate"], "out_goods": ["copper_cable"], "in_num": [1], "out_num": [2], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate"], "out_goods": ["iron_stick"], "in_num": [1], "out_num": [2], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate"], "out_goods": ["iron_gear_wheel"], "in_num": [2], "out_num": [1], "plant": ""}
+{"time": 1, "in_goods": ["steel_plate"], "out_goods": ["empty_barrel"], "in_num": [1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "copper_cable"], "out_goods": ["electronic_circuit"], "in_num": [1, 3], "out_num": [1], "plant": ""}
+{"time": 6, "in_goods": ["plastic_bar", "copper_cable", "electronic_circuit"], "out_goods": ["advanced_circuit"], "in_num": [2, 4, 2], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["electronic_circuit", "advanced_circuit", "sulfuric_acid"], "out_goods": ["processing_unit"], "in_num": [20, 2, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "iron_gear_wheel", "pipe"], "out_goods": ["engine_unit"], "in_num": [1, 1, 2], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["electronic_circuit", "engine_unit", "lubricant"], "out_goods": ["electric_engine_unit"], "in_num": [2, 1, 15], "out_num": [1], "plant": ""}
+{"time": 20, "in_goods": ["steel_plate", "battery", "electronic_circuit", "electric_engine_unit"], "out_goods": ["flying_robot_frame"], "in_num": [1, 2, 3, 1], "out_num": [1], "plant": ""}
+{"time": 5, "in_goods": ["processing_unit", "low_density_structure", "rocket_fuel", "solar_panel", "accumulator", "radar"], "out_goods": ["satellite"], "in_num": [100, 100, 50, 100, 100, 5], "out_num": [1], "plant": ""}
+{"time": 30, "in_goods": ["processing_unit", "speed_module"], "out_goods": ["rocket_control_unit"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 30, "in_goods": ["copper_plate", "steel_plate", "plastic_bar"], "out_goods": ["low_density_structure"], "in_num": [5, 10, 5], "out_num": [1], "plant": ""}
+{"time": 30, "in_goods": ["solid_fuel"], "out_goods": ["rocket_fuel"], "in_num": [10], "out_num": [1], "plant": ""}
+{"time": 60, "in_goods": ["rocket_fuel", "uranium-235"], "out_goods": ["nuclear_fuel"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["iron_plate", "uranium-235", "uranium-238"], "out_goods": ["uranium_fuel_cell"], "in_num": [10, 1, 19], "out_num": [10], "plant": ""}
+{"time": 5, "in_goods": ["copper_plate", "iron_gear_wheel"], "out_goods": ["science_pack_1"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 6, "in_goods": ["transport_belt", "inserter"], "out_goods": ["science_pack_2"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 12, "in_goods": ["advanced_circuit", "engine_unit", "electric_mining_drill"], "out_goods": ["science_pack_3"], "in_num": [1, 1, 1], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["piercing_rounds_magazine", "grenade", "gun_turret"], "out_goods": ["military_science_pack"], "in_num": [1, 1, 1], "out_num": [2], "plant": ""}
+{"time": 14, "in_goods": ["electric_engine_unit", "electric_furnace"], "out_goods": ["production_science_pack"], "in_num": [1, 1], "out_num": [2], "plant": ""}
+{"time": 14, "in_goods": ["battery", "copper_cable", "processing_unit", "speed_module"], "out_goods": ["high_tech_science_pack"], "in_num": [1, 30, 3, 1], "out_num": [2], "plant": ""}
+{"time": 5, "in_goods": ["iron_plate", "copper_plate"], "out_goods": ["pistol"], "in_num": [5, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["iron_plate", "copper_plate", "iron_gear_wheel"], "out_goods": ["submachine_gun"], "in_num": [10, 5, 10], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["iron_plate", "iron_gear_wheel", "electronic_circuit"], "out_goods": ["rocket_launcher"], "in_num": [5, 5, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "iron_gear_wheel"], "out_goods": ["flamethrower"], "in_num": [5, 10], "out_num": [1], "plant": ""}
+{"time": 5, "in_goods": ["steel_plate", "explosives"], "out_goods": ["land_mine"], "in_num": [1, 2], "out_num": [4], "plant": ""}
+{"time": 1, "in_goods": ["iron_plate"], "out_goods": ["firearm_magazine"], "in_num": [4], "out_num": [1], "plant": ""}
+{"time": 3, "in_goods": ["copper_plate", "steel_plate", "firearm_magazine"], "out_goods": ["piercing_rounds_magazine"], "in_num": [5, 1, 1], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["uranium-238", "piercing_rounds_magazine"], "out_goods": ["uranium_rounds_magazine"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 3, "in_goods": ["iron_plate", "copper_plate"], "out_goods": ["shotgun_shells"], "in_num": [2, 2], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["copper_plate", "steel_plate", "shotgun_shells"], "out_goods": ["piercing_shotgun_shells"], "in_num": [5, 2, 2], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["steel_plate", "plastic_bar", "explosives"], "out_goods": ["cannon_shell"], "in_num": [2, 2, 1], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["steel_plate", "plastic_bar", "explosives"], "out_goods": ["explosive_cannon_shell"], "in_num": [2, 2, 2], "out_num": [1], "plant": ""}
+{"time": 12, "in_goods": ["uranium-238", "cannon_shell"], "out_goods": ["uranium_cannon_shell"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 12, "in_goods": ["uranium-238", "explosive_cannon_shell"], "out_goods": ["explosive_uranium_cannon_shell"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 15, "in_goods": ["explosives", "explosive_cannon_shell", "radar"], "out_goods": ["artillery_shell"], "in_num": [8, 4, 1], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["iron_plate", "explosives", "electronic_circuit"], "out_goods": ["rocket"], "in_num": [2, 1, 1], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["explosives", "rocket"], "out_goods": ["explosive_rocket"], "in_num": [2, 1], "out_num": [1], "plant": ""}
+{"time": 50, "in_goods": ["explosives", "processing_unit", "uranium-235"], "out_goods": ["atomic_bomb"], "in_num": [10, 20, 30], "out_num": [1], "plant": ""}
+{"time": 6, "in_goods": ["steel_plate", "light_oil", "heavy_oil"], "out_goods": ["flamethrower_ammo"], "in_num": [5, 50, 50], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["coal", "iron_plate"], "out_goods": ["grenade"], "in_num": [10, 5], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["steel_plate", "explosives", "grenade"], "out_goods": ["cluster_grenade"], "in_num": [5, 5, 7], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["coal", "steel_plate", "electronic_circuit"], "out_goods": ["posion_capsule"], "in_num": [10, 3, 3], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["coal", "steel_plate", "electronic_circuit"], "out_goods": ["slowdown_capsule"], "in_num": [5, 2, 2], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["iron_gear_wheel", "electronic_circuit", "piercing_rounds_magazine"], "out_goods": ["defender_capsule"], "in_num": [3, 2, 1], "out_num": [1], "plant": ""}
+{"time": 15, "in_goods": ["advanced_circuit", "defender_capsule"], "out_goods": ["distractor_capsule"], "in_num": [3, 4], "out_num": [1], "plant": ""}
+{"time": 15, "in_goods": ["speed_module", "distractor_capsule"], "out_goods": ["destroyer_capsule"], "in_num": [1, 4], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["electronic_circuit"], "out_goods": ["discharge_defense_remote"], "in_num": [1], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["processing_unit", "radar"], "out_goods": ["artillery_targeting_remote"], "in_num": [1, 1], "out_num": [1], "plant": ""}
+{"time": 3, "in_goods": ["iron_plate"], "out_goods": ["light_armor"], "in_num": [40], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["copper_plate", "steel_plate"], "out_goods": ["heavy_armor"], "in_num": [100, 50], "out_num": [1], "plant": ""}
+{"time": 15, "in_goods": ["steel_plate", "advanced_circuit"], "out_goods": ["modular_armor"], "in_num": [50, 30], "out_num": [1], "plant": ""}
+{"time": 20, "in_goods": ["steel_plate", "processing_unit", "electric_engine_unit"], "out_goods": ["power_armor"], "in_num": [40, 40, 20], "out_num": [1], "plant": ""}
+{"time": 25, "in_goods": ["steel_plate", "processing_unit", "speed_module_3", "efficiency_module_3"], "out_goods": ["power_armor_mk2"], "in_num": [40, 40, 5, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "advanced_circuit", "solar_panel"], "out_goods": ["portable_solar_panel"], "in_num": [5, 1, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["processing_unit"], "out_goods": ["portable_fusion_reactor"], "in_num": [250], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "advanced_circuit"], "out_goods": ["energy_shield"], "in_num": [10, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["processing_unit", "energy_shield"], "out_goods": ["energy_shield_mk2"], "in_num": [10, 10], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "battery"], "out_goods": ["battery_mk1"], "in_num": [10, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["processing_unit", "battery_mk1"], "out_goods": ["battery_mk2"], "in_num": [20, 10], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "processing_unit", "laser_turret"], "out_goods": ["personal_laser_defense"], "in_num": [5, 1, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "processing_unit", "laser_turret"], "out_goods": ["discharge_defense"], "in_num": [20, 5, 10], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "processing_unit", "electric_engine_unit"], "out_goods": ["exoskeleton"], "in_num": [20, 10, 30], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "battery", "iron_gear_wheel", "advanced_circuit"], "out_goods": ["personal_roboport"], "in_num": [20, 45, 40, 10], "out_num": [1], "plant": ""}
+{"time": 20, "in_goods": ["processing_unit", "personal_roboport"], "out_goods": ["personal_roboport_mk2"], "in_num": [100, 5], "out_num": [1], "plant": ""}
+{"time": 10, "in_goods": ["steel_plate", "advanced_circuit"], "out_goods": ["nightvision"], "in_num": [10, 5], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["stone_brick"], "out_goods": ["stone_wall"], "in_num": [5], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["steel_plate", "electronic_circuit", "stone_wall"], "out_goods": ["gate"], "in_num": [2, 2, 1], "out_num": [1], "plant": ""}
+{"time": 8, "in_goods": ["iron_plate", "copper_plate", "iron_gear_wheel"], "out_goods": ["gun_turret"], "in_num": [20, 10, 10], "out_num": [1], "plant": ""}
+{"time": 20, "in_goods": ["steel_plate", "battery", "electronic_circuit"], "out_goods": ["laser_turret"], "in_num": [20, 12, 20], "out_num": [1], "plant": ""}
+{"time": 20, "in_goods": ["steel_plate", "iron_gear_wheel", "engine_unit", "pipe"], "out_goods": ["flamethrower_turret"], "in_num": [30, 15, 5, 10], "out_num": [1], "plant": ""}
+{"time": 40, "in_goods": ["steel_plate", "iron_gear_wheel", "advanced_circuit", "concrete"], "out_goods": ["artillery_turret"], "in_num": [60, 40, 20, 60], "out_num": [1], "plant": ""}
+{"time": 0.5, "in_goods": ["iron_plate", "iron_gear_wheel", "electronic_circuit"], "out_goods": ["radar"], "in_num": [10, 5, 5], "out_num": [1], "plant": ""}
+{"time": 30, "in_goods": ["steel_plate", "processing_unit", "electric_engine_unit", "pipe", "concrete"], "out_goods": ["rocket_silo"], "in_num": [1000, 200, 200, 100, 1000], "out_num": [1], "plant": ""}
+{"time": 3, "in_goods": ["rocket_control_unit", "low_density_structure", "rocket_fuel"], "out_goods": ["rocket_part"], "in_num": [10, 10, 10], "out_num": [1], "plant": ""}
+{"time": 300, "in_goods": ["rocket_part"], "out_goods": ["rocket_launch"], "in_num": [100], "out_num": [1], "plant": ""}
